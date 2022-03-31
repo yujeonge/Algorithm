@@ -19,7 +19,7 @@ public class B10816_숫자_카드2 {
 		for (int i = 1; i <= N; i++) {
 			int n =Integer.parseInt(st.nextToken());
 			if(map.containsKey(n)) { //map에 key값으로 n이 있었다면(이전에 n카드가 나왔었다면)
-				int ni = map.get(n)+1; //key의 value값에 +1한 값을
+				int ni = map.get(n)+1; //key의 value값에 +1한 값을 
 				map.replace(n, ni); //해당 key에 넣어줌
 			}else map.put(n, 1);
 		}
