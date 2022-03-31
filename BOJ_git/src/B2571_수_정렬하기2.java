@@ -7,6 +7,7 @@ import java.util.Collections;
 import java.util.LinkedList;
 /*
  * ArrayList보다 메모리는 조금 큰데 시간은 조금 빠름
+ * 
  */
 public class B2571_수_정렬하기2 {
 	public static void main(String[] args) throws NumberFormatException, IOException {
