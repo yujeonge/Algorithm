@@ -38,9 +38,6 @@ public class B12865_평범한_배낭 {
 				}
 			}
 		}
-		for (int[] is : dp) {
-			System.out.println(Arrays.toString(is));
-		}
 
 		System.out.println(dp[N][K]);
 	}
