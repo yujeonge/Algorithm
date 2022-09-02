@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class B11047_µ¿Àü_0 {
+public class B11047_ÂµÂ¿Ã€Ã¼_0 {
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
@@ -15,7 +15,7 @@ public class B11047_µ¿Àü_0 {
 		int index = 0;
 		int ans = 0;
 
-		// ÀÔ·Â ¹Þ±â
+		// Ã€Ã”Â·Ã‚ Â¹ÃžÂ±Ã¢
 		for (int i = 0; i < n; i++) {
 			coins[i] = Integer.parseInt(br.readLine());
 			if (k >= coins[i]) {
