@@ -2,7 +2,7 @@ package algo;
 
 import java.util.Scanner;
 
-public class B25314_�ڵ���_ü������_�Դϴ� {
+public class B25314_ÄÚµùÀº_Ã¼À°°ú¸ñ_ÀÔ´Ï´Ù {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		StringBuilder sb = new StringBuilder();
