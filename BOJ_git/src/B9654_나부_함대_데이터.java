@@ -1,6 +1,6 @@
+package algo;
 
-
-public class B9654_ë‚˜ë¶€_í•¨ëŒ€_ë°ì´í„° {
+public class B9654_³ªºÎ_ÇÔ´ë_µ¥ÀÌÅÍ {
 	public static void main(String[] args) {
 		System.out.println("SHIP NAME      CLASS          DEPLOYMENT IN SERVICE");
 		System.out.println("N2 Bomber      Heavy Fighter  Limited    21        ");
