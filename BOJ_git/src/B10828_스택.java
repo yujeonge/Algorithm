@@ -13,7 +13,7 @@ public class B10828_스택 {
 		Stack<Integer> stack = new Stack<Integer>();
 		StringBuilder sb = new StringBuilder();
 
-		for (int i = 0; i < N; i++) {
+		for (int i = 0; i  < N; i++) {
 			StringTokenizer st = new StringTokenizer(br.readLine());
 			String S = st.nextToken();
 
