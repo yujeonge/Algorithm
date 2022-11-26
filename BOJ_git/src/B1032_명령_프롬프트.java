@@ -4,17 +4,17 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class B1032_¸í·É_ÇÁ·ÒÇÁÆ® {
+public class B1032_ëª…ë ¹_í”„ë¡¬í”„íŠ¸ {
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int n = Integer.parseInt(br.readLine());
+		int n =  Integer.parseInt(br.readLine());
 
 		char[] ch = br.readLine().toCharArray();
 
-		// tc¸¸Å­ ¹İº¹
+		// tcë§Œí¼ ë°˜ë³µ
 		for (int i = 1; i < n; i++) {
 			String str = br.readLine();
-			// ¹®ÀÚ¿­ ±æÀÌ¸¸Å­ ¹İº¹
+			// ë¬¸ìì—´ ê¸¸ì´ë§Œí¼ ë°˜ë³µ
 			for (int j = 0; j < ch.length; j++) {
 				if (ch[j] != str.charAt(j)) {
 					ch[j] = '?';
