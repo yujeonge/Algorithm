@@ -13,7 +13,7 @@ public class B1141_접두사 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int n = Integer.parseInt(br.readLine()); // 단어의 개수
 		int ans = 0;
-		ArrayList<String> list = new ArrayList<>();
+		ArrayList<String> list =  new ArrayList<>();
 
 		// 입력받기
 		for (int i = 0; i < n; i++) {
