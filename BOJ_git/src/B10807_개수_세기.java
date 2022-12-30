@@ -12,8 +12,8 @@ public class B10807_개수_세기 {
 			int num = sc.nextInt();
 			map.put(num, map.containsKey(num) ? map.get(num) + 1 : 1);
 		}
-		int v = sc.nextInt();
-		int ans = map.containsKey(v) ? map.get(v) : 0;
+		int n = sc.nextInt();
+		int ans = map.containsKey(n) ? map.get(v) : 0;
 		System.out.println(ans);
 	}
 }
