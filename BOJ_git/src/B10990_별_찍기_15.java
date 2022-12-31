@@ -2,20 +2,20 @@ package algo;
 
 import java.util.Scanner;
 
-public class B10990_º°_Âï±â_15 {
+public class B10990_ë³„_ì°ê¸°_15 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		StringBuilder sb = new StringBuilder();
-		int n = sc.nextInt();
+		int n = sc.nextInt(); 
 
-		// ÁÙ¼ö
+		// ì¤„ìˆ˜
 		for (int i = 0; i < n; i++) {
-			// À­ÂÊ °ø¹é
+			// ìœ—ìª½ ê³µë°±
 			for (int j = n - 1; j > i; j--) {
 				sb.append(' ');
 			}
 			sb.append('*');
-			// »çÀÌ °ø¹é
+			// ì‚¬ì´ ê³µë°±
 			for (int j = 0; j < i * 2 - 1; j++) {
 				sb.append(' ');
 			}
