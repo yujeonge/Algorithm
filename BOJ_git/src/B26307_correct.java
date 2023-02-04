@@ -7,7 +7,7 @@ public class B26307_correct {
 		Scanner sc = new Scanner(System.in);
 		int h = sc.nextInt();
 		int m = sc.nextInt();
-		int ans = (h - 9) * 60 + m;
+		int ans = (h - 9) * 60 + m; 
 		
 		System.out.println(ans);
 	}
